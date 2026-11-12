@@ -37,6 +37,8 @@ def show_list(request: Request):
 @app.post("/add")
 def add(title: str = Form(...), rating: int = Form(...), person: str = Form(...)):
     """The form on the start page sends its fields here."""
+    if rating < 1 or rating > 5:
+        return RedirectResponse("/", status_code=303)
     storage.add_entry(title=title.strip(), rating=rating, person=person.strip())
     # Back to the start page. 303 tells the browser: load it with GET.
     return RedirectResponse("/", status_code=303)
