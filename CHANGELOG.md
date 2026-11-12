@@ -8,4 +8,5 @@ Example:
 
 ## Unreleased
 
+- Docs page on how we review pull requests (#12)
 - Start from the repository template
