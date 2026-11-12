@@ -1,10 +1,11 @@
-"""Movie Ratings: rate movies and see what the team likes best.
+"""Movie Ratings: our team project for CM-104.
 
-This is an example. Replace the topic with your own: change the fields,
+Users enter a movie title, a rating from 1 to 5 and their name.
+The app keeps the ratings and shows them in a table.
 
 What happens where:
 - main.py      the web part: which address shows what (the "routes")
-- storage.py   where the entries are kept
+- storage.py   where the ratings are kept
 - templates/   the HTML page
 - static/      the stylesheet
 """
