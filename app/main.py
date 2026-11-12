@@ -1,7 +1,7 @@
 """Movie Ratings: rate movies and see what the team likes best.
 
 This is an example. Replace the topic with your own: change the fields,
-...
+
 What happens where:
 - main.py      the web part: which address shows what (the "routes")
 - storage.py   where the entries are kept
