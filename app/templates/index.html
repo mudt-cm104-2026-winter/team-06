@@ -15,7 +15,7 @@
 
     <form class="add" action="/add" method="post">
       <input name="title" placeholder="Movie title" required autocomplete="off" autofocus>
-      <input name="rating" type="number" placeholder="Rating (1-5)" required>
+      <input name="rating" type="number" min="1" max="5" placeholder="Rating (1-5)" required>
       <input name="person" placeholder="Who?" required autocomplete="off">
       <button type="submit">Add</button>
     </form>
