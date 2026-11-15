@@ -6,7 +6,12 @@ Running the app is optional. You only need it if you want to try your changes.
 ## What you need
 
 - Python 3.10 or newer
-- This repository on your laptop (`git clone ...`)
+- This repository on your laptop. Get it once with:
+
+```bash
+git clone https://github.com/mudt-cm104-2026-winter/team-06.git
+cd team-06
+```
 
 Check your Python version:
 
