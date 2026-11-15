@@ -8,8 +8,6 @@ Example:
 
 ## Unreleased
 
-
+- Ratings must be between 1 and 5 (#17)
 - Movies can be rated with title, rating and person (#15)
 - Start from the repository template
-- Ratings must be between 1 and 5 (#6)
-
