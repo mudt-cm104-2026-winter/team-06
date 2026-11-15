@@ -27,10 +27,13 @@ templates = Jinja2Templates(directory=HERE / "templates")
 
 
 @app.get("/")
-def show_list(request: Request):
-    """The start page: the form and all entries."""
+def show_list(request: Request, q: str = ""):
+    """The start page: the form and all ratings, filtered by the search text q."""
+    entries = storage.all_entries()
+    if q:
+        entries = [e for e in entries if q.lower() in e["title"].lower()]
     return templates.TemplateResponse(
-        request, "index.html", {"entries": storage.all_entries()}
+        request, "index.html", {"entries": entries, "q": q}
     )
 
 
