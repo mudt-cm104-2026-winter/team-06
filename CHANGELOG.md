@@ -7,6 +7,8 @@ Example:
 -->
 
 ## Unreleased
+
+- README explains the app, the team and how we work (#22)
 - Guide how to run the app on Mac and Windows (#20)
 - Ratings must be between 1 and 5 (#17)
 - New pull requests start with a template (#19)
