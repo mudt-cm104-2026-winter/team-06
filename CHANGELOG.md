@@ -7,6 +7,7 @@ Example:
 -->
 
 ## Unreleased
+- Guide how to run the app on Mac and Windows (#20)
 - New pull requests start with a template (#19)
 - Movies can be rated with title, rating and person (#15)
 - Start from the repository template
