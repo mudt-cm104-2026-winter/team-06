@@ -45,6 +45,8 @@ uvicorn app.main:app --reload
 
 In PowerShell, the second line is `.venv\Scripts\activate` instead.
 
+If PowerShell says "running scripts is disabled on this system", use Git Bash instead. Git Bash does not have this problem.
+
 ## Open the app
 
 Open http://127.0.0.1:8000 in your browser.
