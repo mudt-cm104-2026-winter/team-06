@@ -8,8 +8,7 @@ Example:
 
 ## Unreleased
 - Guide how to run the app on Mac and Windows (#20)
+- Ratings must be between 1 and 5 (#17)
 - New pull requests start with a template (#19)
 - Movies can be rated with title, rating and person (#15)
 - Start from the repository template
-
-
