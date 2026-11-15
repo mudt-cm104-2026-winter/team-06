@@ -20,6 +20,11 @@
       <button type="submit">Add</button>
     </form>
 
+    <form class="search" action="/" method="get">
+      <input name="q" value="{{ q }}" placeholder="Search movies" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+
     {% if entries %}
     <table>
       <thead>
