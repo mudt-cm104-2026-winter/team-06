@@ -7,6 +7,7 @@ Example:
 -->
 
 ## Unreleased
+- Docs page on how we review pull requests (#16)
 - Glossary with movie and app words (#26)
 - Ratings are sorted, best first (#25)
 - How-to-run shows the real clone address and a PowerShell tip (#24)
