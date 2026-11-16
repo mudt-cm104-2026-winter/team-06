@@ -21,6 +21,11 @@
     </form>
 
     {% if entries %}
+    <p class="summary">
+      {{ entries|length }} rating{{ "s" if entries|length != 1 }}, average
+      {{ "%.1f"|format(entries|sum(attribute="rating") / entries|length) }}
+    </p>
+
     <table>
       <thead>
         <tr>
