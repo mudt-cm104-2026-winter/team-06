@@ -28,10 +28,9 @@ templates = Jinja2Templates(directory=HERE / "templates")
 
 @app.get("/")
 def show_list(request: Request):
-    """The start page: the form and all entries."""
-    return templates.TemplateResponse(
-        request, "index.html", {"entries": storage.all_entries()}
-    )
+    """The start page: the form and all entries, best rating first."""
+    entries = sorted(storage.all_entries(), key=lambda e: e["rating"], reverse=True)
+    return templates.TemplateResponse(request, "index.html", {"entries": entries})
 
 
 @app.post("/add")
