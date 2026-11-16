@@ -23,6 +23,7 @@
     {% if entries %}
     <p class="summary">
       {{ entries|length }} rating{{ "s" if entries|length != 1 }}, average
+      {# average of all ratings, rounded to one decimal #}
       {{ "%.1f"|format(entries|sum(attribute="rating") / entries|length) }}
     </p>
 
