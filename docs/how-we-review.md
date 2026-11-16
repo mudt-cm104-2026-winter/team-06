@@ -4,6 +4,11 @@
 Every pull request is reviewed by one other team member, never by the author.
 We take turns, so everyone reviews the work of the others.
 
+Our review order:
+- Ahmet reviews Virgie's pull requests
+- Virgie reviews Azra's pull requests
+- Azra reviews Ahmet's pull requests
+
 ## What we check
 - [ ] The PR description says what changed and why, and has `closes #n`
 - [ ] There is one new line in `CHANGELOG.md`
