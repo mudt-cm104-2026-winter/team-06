@@ -50,6 +50,8 @@
         {% endfor %}
       </tbody>
     </table>
+    {% elif q %}
+    <p class="empty">No movies match your search.</p>
     {% else %}
     <p class="empty">No ratings yet.</p>
     {% endif %}
