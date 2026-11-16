@@ -35,11 +35,17 @@ def show_list(request: Request, q: str = ""):
     return templates.TemplateResponse(
         request, "index.html", {"entries": entries, "q": q}
     )
+def show_list(request: Request):
+    """The start page: the form and all entries, best rating first."""
+    entries = sorted(storage.all_entries(), key=lambda e: e["rating"], reverse=True)
+    return templates.TemplateResponse(request, "index.html", {"entries": entries})
 
 
 @app.post("/add")
 def add(title: str = Form(...), rating: int = Form(...), person: str = Form(...)):
     """The form on the start page sends its fields here."""
+    if rating < 1 or rating > 5:
+        return RedirectResponse("/", status_code=303)
     storage.add_entry(title=title.strip(), rating=rating, person=person.strip())
     # Back to the start page. 303 tells the browser: load it with GET.
     return RedirectResponse("/", status_code=303)
