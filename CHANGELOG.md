@@ -7,11 +7,8 @@ Example:
 -->
 
 ## Unreleased
-<<<<<<< HEAD
 - Use of AI lists everyone's entries with usernames (#32)
-=======
 - CHANGELOG has no leftover conflict markers (#31)
->>>>>>> main
 - Movies can be searched by title (#21)
 - Ratings can be deleted (#28)
 - README explains the app, the team and how we work (#22)
@@ -25,3 +22,4 @@ Example:
 - New pull requests start with a template (#19)
 - Movies can be rated with title, rating and person (#15)
 - Start from the repository template
+
