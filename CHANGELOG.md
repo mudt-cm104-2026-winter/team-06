@@ -7,6 +7,7 @@ Example:
 -->
 
 ## Unreleased
+- README explains the app, the team and how we work (#22)
 - The page shows the number of ratings and the average (#27)
 - Docs page on how we review pull requests (#16)
 - Glossary with movie and app words (#26)
