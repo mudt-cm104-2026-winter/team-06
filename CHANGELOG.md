@@ -7,7 +7,11 @@ Example:
 -->
 
 ## Unreleased
+<<<<<<< HEAD
 - Use of AI lists everyone's entries with usernames (#32)
+=======
+- CHANGELOG has no leftover conflict markers (#31)
+>>>>>>> main
 - Movies can be searched by title (#21)
 - Ratings can be deleted (#28)
 - README explains the app, the team and how we work (#22)

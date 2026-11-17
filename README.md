@@ -46,7 +46,7 @@ More details for Mac and Windows: [docs/how-to-run.md](docs/how-to-run.md)
 
 ## Use of AI
 
-- 2026-11-09: Claude Code (ahmtekn0), used to plan epics and issues and to create issues #4#14 from our plan, checked on GitHub
+- 2026-11-09: Claude Code (ahmtekn0), used to plan epics and issues and to create issues #4-#14 from our plan, checked on GitHub
 - 2026-11-09: Claude (v-johns), used to plan the work from the assignment, checked against the course sheets
 - 2026-11-12: Claude Code (ahmtekn0), used to draft my review and approval on PR #15, checked by reading the diff myself
 - 2026-11-12: Claude Code (ahmtekn0), used to help write docs/how-we-review.md (PR #16), checked by reading every section
@@ -60,4 +60,6 @@ More details for Mac and Windows: [docs/how-to-run.md](docs/how-to-run.md)
 - 2026-11-16: Claude (v-johns), used to prepare my reviews of other pull requests, checked by reading the changes myself in "Files changed"
 - 2026-11-17: Claude Code (ahmtekn0), used to write and test the delete feature in PR #28, checked by running the app and reading every line
 - 2026-11-17: Claude Code (ahmtekn0), used to answer the review on PR #28, solve its CHANGELOG conflict and merge it, checked by running the app
+- 2026-11-17: Claude Code (ahmtekn0), used to test PR #21 together with the latest main and draft my approval, checked by running the app
+- 2026-11-17: Claude Code (ahmtekn0), used to find and remove the leftover conflict markers in CHANGELOG (PR #31) and add a check to how-we-review, checked by searching the file
 - 2026-11-17: Claude (v-johns), used to resolve the merge conflicts in main.py and CHANGELOG.md for #9 and #10 and to fill in this section, checked with `git diff` and by reading the final files
