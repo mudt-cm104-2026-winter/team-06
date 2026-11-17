@@ -7,7 +7,7 @@ Example:
 -->
 
 ## Unreleased
-- Use of AI lists the last missing entries (#33)
+- Use of AI lists the last missing entries (#34)
 - Use of AI lists everyone's entries with usernames (#32)
 - CHANGELOG has no leftover conflict markers (#31)
 - Movies can be searched by title (#21)

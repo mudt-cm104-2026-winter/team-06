@@ -65,4 +65,4 @@ More details for Mac and Windows: [docs/how-to-run.md](docs/how-to-run.md)
 - 2026-11-17: Claude (v-johns), used to resolve the merge conflicts in main.py and CHANGELOG.md for #9 and #10 and to fill in this section, checked with `git diff` and by reading the final files
 - 2026-11-17: Claude Code (ahmtekn0), used to review PR #32 and write the one-click suggestions, checked by reading the final README and CHANGELOG
 - 2026-11-17: Claude Code (ahmtekn0), used to close the epics, check every item of the checklist and set the tag stage-1, checked on github.com
-- 2026-11-17: Claude Code (ahmtekn0), used to add these missing entries (#33) and move the tag stage-1 to the new main, checked on github.com
+- 2026-11-17: Claude Code (ahmtekn0), used to add these missing entries (PR #34) and move the tag stage-1 to the new main, checked on github.com
