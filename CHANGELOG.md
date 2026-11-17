@@ -7,6 +7,7 @@ Example:
 -->
 
 ## Unreleased
+- CHANGELOG has no leftover conflict markers (#31)
 - Movies can be searched by title (#21)
 - Ratings can be deleted (#28)
 - README explains the app, the team and how we work (#22)
