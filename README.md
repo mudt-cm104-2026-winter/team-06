@@ -46,9 +46,34 @@ More details for Mac and Windows: [docs/how-to-run.md](docs/how-to-run.md)
 - 2026-11-05: <title or link>, used for <what>
 -->
 
+- 2026-11-04: Course repository template `mudt-cm104-2026-winter/repo-template` ("Things to bring"), used as the starting point of our app
+- 2026-11-09: `assessment-1-team-project.md` (course material), used for the checklist of stage 1
+
 ## Use of AI
 
 <!-- One entry per use, added on the day you use it:
 - 2026-11-05: <tool>, used for <what>, checked by <how you checked the result>
 "none" is a valid entry.
 -->
+
+### ahmtekn0
+
+- 2026-11-09: Claude Code, used to plan epics and issues and to create issues #4–#14 from our plan, checked on GitHub
+- 2026-11-12: Claude Code, used to draft my review and approval on PR #15, checked by reading the diff myself
+- 2026-11-12: Claude Code, used to help write docs/how-we-review.md (PR #16), checked by reading every section
+- 2026-11-16: Claude Code, used to add the review order and solve the CHANGELOG merge conflict in PR #16, checked by reading the final files
+- 2026-11-16: Claude Code, used to write and test the count and average feature in PR #27, checked by running the app with different ratings
+- 2026-11-16: Claude Code, used to test PR #21 and draft my reviews on #21 and #22, checked by reading the comments
+- 2026-11-16: Claude Code, used to solve CHANGELOG conflicts in #16 and #27 and merge them, checked by running the app
+- 2026-11-17: Claude Code, used to write and test the delete feature in PR #28, checked by running the app and reading every line
+- 2026-11-17: Claude Code, used to answer the review on PR #28, solve its CHANGELOG conflict and merge it, checked by running the app
+- 2026-11-17: Claude Code, used to test PR #21 together with the latest main and draft my approval, checked by running the app
+- 2026-11-17: Claude Code, used to write this Sources and Use of AI section (PR for #14), checked by reading it
+
+### azra-sarac
+
+- (Azra adds her entries in this pull request)
+
+### v-johns
+
+- (Virgie adds her entries in this pull request)
