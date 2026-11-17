@@ -24,3 +24,11 @@ def add_entry(title, rating, person):
     _entries.append(entry)
     _next_id += 1
     return entry
+
+
+def delete_entry(entry_id):
+    """Remove the rating with this id."""
+    for entry in _entries:
+        if entry["id"] == entry_id:
+            _entries.remove(entry)
+            return

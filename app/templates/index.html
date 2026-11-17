@@ -38,6 +38,7 @@
           <th>Movie</th>
           <th>Rating</th>
           <th>Who</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -46,6 +47,11 @@
           <td>{{ entry.title }}</td>
           <td>{{ entry.rating }}</td>
           <td>{{ entry.person }}</td>
+          <td>
+            <form action="/delete/{{ entry.id }}" method="post">
+              <button>Delete</button>
+            </form>
+          </td>
         </tr>
         {% endfor %}
       </tbody>
