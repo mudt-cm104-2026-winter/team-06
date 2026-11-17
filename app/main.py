@@ -41,3 +41,10 @@ def add(title: str = Form(...), rating: int = Form(...), person: str = Form(...)
     storage.add_entry(title=title.strip(), rating=rating, person=person.strip())
     # Back to the start page. 303 tells the browser: load it with GET.
     return RedirectResponse("/", status_code=303)
+
+
+@app.post("/delete/{entry_id}")
+def delete(entry_id: int):
+    """The delete button in each row sends its id here."""
+    storage.delete_entry(entry_id)
+    return RedirectResponse("/", status_code=303)
