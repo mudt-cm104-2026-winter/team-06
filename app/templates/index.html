@@ -20,6 +20,11 @@
       <button type="submit">Add</button>
     </form>
 
+    <form class="search" action="/" method="get">
+      <input name="q" value="{{ q }}" placeholder="Search movies" autocomplete="off">
+      <button type="submit">Search</button>
+    </form>
+
     {% if entries %}
     <p class="summary">
       {{ entries|length }} rating{{ "s" if entries|length != 1 }}, average
@@ -51,6 +56,8 @@
         {% endfor %}
       </tbody>
     </table>
+    {% elif q %}
+    <p class="empty">No movies match your search.</p>
     {% else %}
     <p class="empty">No ratings yet.</p>
     {% endif %}
