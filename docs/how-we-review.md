@@ -14,6 +14,7 @@ Our review order:
 - [ ] There is one new line in `CHANGELOG.md`
 - [ ] Commit messages say what changed
 - [ ] The change does only what the issue asks for
+- [ ] No `<<<<<<<`, `=======` or `>>>>>>>` lines are left after solving a conflict
 
 ## Comments
 We leave comments on the exact line in "Files changed".
