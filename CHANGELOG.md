@@ -7,7 +7,7 @@ Example:
 -->
 
 ## Unreleased
-- README lists our sources and our use of AI (#14)
+- README lists our sources and our use of AI (#29)
 - Ratings can be deleted (#28)
 - README explains the app, the team and how we work (#22)
 - The page shows the number of ratings and the average (#27)
